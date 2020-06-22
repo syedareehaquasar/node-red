@@ -1,0 +1,1 @@
+[{"id":"33d8be98.6768a2","type":"function","z":"6f7b7062.6d569","name":"Process Output","func":"msg.payload = {};\nmsg.payload.identifyresponse = \"I don’t know\";\nif (msg.lang && msg.lang.language){\n      msg.payload.identifyresponse = msg.lang.language;\n\t  }\nreturn msg;","outputs":1,"noerr":0,"x":440,"y":240,"wires":[["331562a9.233f6e"]]}]
